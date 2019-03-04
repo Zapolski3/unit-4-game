@@ -42,6 +42,7 @@ h1 {
 }
 
 #winsLosses {
+    font-size: 19px;
     position:relative;
     left:210px;
     top:-90px;
@@ -67,7 +68,7 @@ h1 {
 }
 
 #yourScore {
-    font-size: 20px;
+    font-size: 40px;
     background-color: turquoise;
     margin:10px auto auto 10px;
     height:90px;
