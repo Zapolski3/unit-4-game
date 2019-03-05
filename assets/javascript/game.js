@@ -54,12 +54,12 @@ $("img").on("click", function () {
     if (randomNum === userTotal) {
         alert("you won");
         wins++;
-        $("#wins").append(wins);
+        $("#wins").html("Wins:" +" "+ wins);
         reset();
     } else if (randomNum < userTotal) {
         alert("YOU'RE A LOOSER");
         losses++;
-        $("#losses").append(losses);
+        $("#losses").html("Losses:" +" "+losses);
         
         reset();
     }
